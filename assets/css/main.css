@@ -3054,7 +3054,7 @@ input, select, textarea {
             min-width: 0;
             opacity: 1;
             padding: calc(16/16 * 1rem);
-            border: 1px solid #000000;
+            border: 1px solid #918b8b;
             transform: rotateY(0);
             transition: transform 0.7s, opacity .3s;
 			border-radius: .75em;
