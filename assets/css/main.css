@@ -2949,6 +2949,7 @@ input, select, textarea {
         }
 
         .cs-button-group {
+			color: #ffffff;
             margin: 0;
             display: flex;
             justify-content: center;
@@ -2963,12 +2964,12 @@ input, select, textarea {
             line-height: 1.2em;
             text-transform: lowercase;
             padding: 15;
-            color: var(--bodyTextColor);
+            color: #ffffff;
             background-color: transparent;
             border: none;
             position: relative;
             transition: color 0.3s;
-			padding-right: 30;
+			padding-right: 15;
 
             &:before {
                 content: "";
@@ -3274,7 +3275,7 @@ input, select, textarea {
 
 :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-    --primary: #ff6a3e;
+    --primary: #aa9c98;
     --primaryLight: #ffba43;
     --secondary: #ffba43;
     --secondaryLight: #ffba43;
